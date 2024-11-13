@@ -19,20 +19,20 @@ The results after filtering and classification:
 
 - **Total Relevant Papers Identified**: 3,656
 - **Classification Breakdown**:
-  - **Text Mining**: 549 papers
-  - **Computer Vision**: 127 papers
-  - **Both (Text Mining and Computer Vision)**: 179 papers
-  - **Other**: 2801 papers
+  - **Text Mining**: 854 papers
+  - **Computer Vision**: 282 papers
+  - **Both (Text Mining and Computer Vision)**: 311 papers
+  - **Other**: 2209 papers
 
 ### Extraction of Specific Methods
 
 The method extraction process identified the most common deep learning methods, with the following top methods:
 
-- **Machine Learning Model**: 976
-- **Deep Neural Networks**: 486
-- **CNN**: 227
-- **Artificial Neural Network**: 122
-- **Large Language Model**: 111
+- **Machine Learning Model**: 1063
+- **Deep Neural Networks**: 506
+- **CNN**: 246
+- - **Large Language Model**: 196
+- **Artificial Neural Network**: 124
 
 ## System Components and Approach
 
