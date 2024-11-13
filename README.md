@@ -31,7 +31,7 @@ The method extraction process identified the most common deep learning methods, 
 - **Machine Learning Model**: 1063
 - **Deep Neural Networks**: 506
 - **CNN**: 246
-- - **Large Language Model**: 196
+- **Large Language Model**: 196
 - **Artificial Neural Network**: 124
 
 ## System Components and Approach
