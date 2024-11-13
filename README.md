@@ -39,7 +39,7 @@ The method extraction process identified the most common deep learning methods, 
 ### 1. Semantic NLP Filtering
 
 #### NLP Technique Used
-For filtering papers relevant to deep learning in virology/epidemiology, **semantic natural language processing (NLP)** has been used, specifically the `SentenceTransformer` model (`all-MiniLM-L6-v2`). This approach leverages contextual embeddings to measure the semantic similarity between each paper’s content and a set of predefined deep learning-related keywords. By using embeddings, this method moves beyond simple keyword matching, understanding the context in which terms are used.
+For filtering papers relevant to deep learning in virology/epidemiology, **semantic natural language processing (NLP)** has been used, specifically the 'SentenceTransformer' model ('all-MiniLM-L6-v2'). This approach leverages contextual embeddings to measure the semantic similarity between each paper’s content and a set of predefined deep learning-related keywords. By using embeddings, this method moves beyond simple keyword matching, understanding the context in which terms are used.
 
 #### Why Semantic Filtering over Keyword-Based Filtering?
 While keyword-based filtering can quickly identify exact matches, it fails to account for variations in phrasing or synonyms. Semantic filtering allows for a more accurate representation of the paper’s content, capturing relevant papers that might use synonymous terms or slightly different language to describe deep learning techniques. This technique helps reduce false negatives, ensuring more comprehensive results for researchers.
@@ -72,7 +72,7 @@ For each relevant paper, specific deep learning method(s) discussed will be extr
 
 1. **Setup**:
    - Clone the repository and install the necessary packages (All necessary packages are in requirements.txt file). Please run the command "pip install -r requirements.txt"
-   - Load the dataset into the system (`preprocessed_data.csv`).
+   - Load the dataset into the system ('preprocessed_data.csv').
 
 2. **Running the Code**:
    - To filter papers, run the filtering function to generate a list of relevant papers.
@@ -86,6 +86,6 @@ For each relevant paper, specific deep learning method(s) discussed will be extr
 
 - **Effectiveness**: The system has been evaluated based on its ability to identify relevant deep learning papers with high accuracy compared to keyword-based filtering.
 - **Output Files**:
-  - `filtered_papers.csv`: Contains papers deemed relevant to deep learning in virology/epidemiology.
-  - `methodType_classified_papers.csv`: Contains classified papers with a method type label.
-  - `research_papers_classification.csv`: The final dataset with relevant papers, their classification, and extracted deep learning methods.
+  - 'filtered_papers.csv': Contains papers deemed relevant to deep learning in virology/epidemiology.
+  - 'methodType_classified_papers.csv': Contains classified papers with a method type label.
+  - 'research_papers_classification.csv': The final dataset with relevant papers, their classification, and extracted deep learning methods.
